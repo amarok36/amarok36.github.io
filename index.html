@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Дмитрий Бобров | Frontend-разработчик и веб-верстальщик</title>
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="manifest" href="favicon/site.webmanifest">
+	<link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#f53f4f">
+	<link rel="shortcut icon" href="favicon/favicon.ico">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-config" content="favicon/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" media="print" href="css/print.css">
+	<link rel="stylesheet" href="css/jquery.fancybox.min.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/hamburgers.css">
+</head>
+<body>
+	<div id="modal-info">
+		<h2>Заказать звонок</h2>
+		<form method="post" action="mailto:bobrowww@rcfh.ru" class="modal-form">
+			<input class="modal-input-name" type="text" name="name-input" placeholder="Имя" required>
+			<input class="modal-input-email" type="text" name="email-input" placeholder="Почта" required>
+			<input class="modal-input-phone" type="text" name="phone-input" placeholder="Телефон" required>
+			<input class="form-submit" type="submit" value="ЗАКАЗАТЬ"/>
+		</form>
+	</div>
+	<div id="modal-call">
+		<h2>Заказать звонок</h2>
+		<form method="post" action="mailto:bobrowww@rcfh.ru" class="modal-form">
+			<input class="modal-input-name" type="text" name="name-input" placeholder="Имя" required>
+			<input class="modal-input-phone" type="text" name="phone-input" placeholder="Телефон" required>
+			<input class="form-submit" type="submit" value="ЗАКАЗАТЬ"/>
+		</form>
+	</div>
+	<div id="header">
+		<div class="fixed-container" id="header-container">
+			<nav id="menu">
+				<ul>
+					<li><a href="#do">Услуги</a></li>
+					<li><a href="#examples">Портфолио</a></li>
+					<li><a href="#promo">Стоимость</a></li>
+				</ul>
+			</nav>
+			<div id="mobile-menu">
+				<button class="hamburger hamburger--collapse" type="button">
+  				<span class="hamburger-box">
+   					<span class="hamburger-inner"></span>
+ 			 		</span>
+				</button>
+				<div id="menu-cover">
+					<a class="menu-close" href="#"></a>
+					<ul>
+						<li><a href="#do">Услуги</a></li>
+						<li><a href="#examples">Портфолио</a></li>
+						<li><a href="#promo">Стоимость</a></li>
+					</ul>						
+				</div>
+			</div>
+			<div id="call">
+				<div id="phone"><a href="tel:+7xxxxxxxxxx">+7 (xxx) xxx-xx-xx</a></div>
+				<button class="order-call-button" id="top-button" data-fancybox href="#modal-call">Заказать звонок</button>
+			</div>
+		</div>
+	</div>
+	<div id="main">
+		<span class="main-items" id="main-item1">{ }</span>
+		<span class="main-items" id="main-item2">#</span>
+		<span class="main-items" id="main-item3">&lt;/&gt;</span>
+		<span class="main-items" id="main-item4">&lt;div&gt;</span>
+		<span class="main-items" id="main-item5">&lt;div&gt;</span>
+		<div class="fixed-container" id="main-container">
+			<div id="main-info">
+				<h1>Дмитрий Бобров</h1>
+				<h3>Frontend-разработчик и&nbsp;веб-верстальщик</h3>
+				<button class="modal-button" data-fancybox href="#modal-info">Узнать больше</button>
+			</div>
+			<div id="main-img">
+				<img src="img/main-img.png">
+			</div>
+			<svg width="1200" height="643">
+		        <image id="main-background" href="img/background.svg">
+	        	<use href="#main-background" x="0" y="0" />
+	        </svg>
+		</div>
+	</div>
+	<div id="do">
+		<h2>Что я делаю</h2>
+		<div class="fixed-container" id="do-container">
+			<div class="service">
+				<img src="img/site-layout.png" alt="">
+				<span>Верстка лендинг-страниц и&nbsp;сайтов любой сложности</span>
+			</div>
+			<div class="service">
+				<img src="img/responsive.png" alt="">
+				<span>Адаптивная верстка под все браузеры и&nbsp;устройства</span>
+			</div>
+			<div class="service">
+				<img src="img/programming.png" alt="">
+				<span>Frontend-разработка и&nbsp;программирование</span>
+			</div>
+			<div class="service">
+				<img src="img/correction.png" alt="">
+				<span>Исправление и&nbsp;доработка существующей верстки</span>
+			</div>
+		</div>
+		<button class="modal-button" data-fancybox href="#modal-info">Узнать стоимость</button>
+	</div>
+	<div id="examples">
+		<h2>Примеры моих работ</h2>
+		<div class="fixed-container" id="examples-container">
+			<div class="owl-carousel">
+				<div><img src="img/slide1.png"><h4><a href="#">Сайт психолога Веры Андреевой</a></h4></div>
+				<div><img src="img/slide2.png"><h4><a href="#">Сайт магазина детской одежды</a></h4></div>
+				<div><img src="img/slide3.png"><h4><a href="#">Сайт суши-бара &laquo;Mr.Roboto&raquo;</a></h4></div>
+				<div><img src="img/slide4.png"><h4><a href="#">Сайт магазина &laquo;Рыболов&raquo;</a></h4></div>
+			</div>
+			<button class="modal-button" data-fancybox href="#modal-info">Заказать проект</button>
+		</div>
+	</div>
+	<div id="promo">
+		<span class="promo-items" id="promo-item1">{ }</span>
+      	<span class="promo-items" id="promo-item2">#</span>
+      	<span class="promo-items" id="promo-item3">&lt;/&gt;</span>
+      	<span class="promo-items" id="promo-item4">&lt;div&gt;</span>
+      	<span class="promo-items" id="promo-item5">{ }</span>
+		<div class="fixed-container">
+			<div id="promo-main">
+				<span>Адаптивная верстка под все устройства и&nbsp;браузеры от&nbsp;1000 рублей всего за&nbsp;4&nbsp;часа.*</span>
+			</div>
+			<div id="promo-details"><span>* Срок и&nbsp;стоимость могут отличаться от&nbsp;заявленных и&nbsp;рассчитываются индивидуально, в&nbsp;зависимости от&nbsp;сложности задач.</span></div>
+		</div>
+	</div>
+	<footer id="footer">
+		<div class="fixed-container" id="footer-container">
+			<div id="footer-menu">
+				<ul>
+					<li><a href="#do">Услуги</a></li>
+					<li><a href="#examples">Портфолио</a></li>
+					<li><a href="#promo">Стоимость</a></li>
+				</ul>
+			</div>
+			<div id="contacts">
+				<div id="call-answer"><a href="tel:+7xxxxxxxxxx">+7 (xxx) xxx-xx-xx</a></div>
+				<div id="email"><a href="mailto:bobrowww@rcfh.ru">bobrowww@rcfh.ru</a></div>
+			</div>
+			<div id="social">
+				<button class="order-call-button" id="bottom-button" data-fancybox href="#modal-call">Заказать звонок</button>
+				<div id="social-links">
+					<a href="https://vk.com/"><img src="img/vk.png" alt=""></a>
+				</div>
+			</div>
+		</div>
+		<div id="basement"><span>Дмитрий Бобров, 2022</span></div>
+	</footer>
+	<script src="js/jquery-3.6.0.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/jquery.fancybox.min.js"></script>
+	<script src="js/jquery.inputmask.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+</body>
+</html>

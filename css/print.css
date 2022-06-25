@@ -1,0 +1,50 @@
+@page {
+	margin: 0 auto;
+}
+
+#header, 
+.main-items, 
+#main-info button, 
+#main-img, 
+svg, 
+#do button, 
+#examples, 
+.promo-items,
+#footer-menu, 
+#basement {
+	display: none;
+}
+
+#main-info {
+	margin-top: 1.5cm;
+}
+
+h2 {
+	padding: 0 1cm 1cm;
+}
+
+#do-container {
+	margin: 0 auto 1cm;
+}
+
+#promo-main {
+	font-size: 25px;
+	color: black;
+	margin: 0;
+}
+
+#promo-details {
+	margin: 0.5cm auto 0;
+}
+
+#footer {
+	min-height: auto;
+	margin-top: 0;
+}
+
+#social {
+	content:url('http://chart.googleapis.com/chart?cht=qr&chs=200x200&choe=UTF-8&chld=H&chl=https://github.com/amarok36');
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+}
